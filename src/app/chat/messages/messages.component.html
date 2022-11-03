@@ -1,0 +1,14 @@
+<div id="messages-display" #scrollMe [scrollTop]="scrollMe.scrollHeight">
+  <div *ngFor="let message of conversation.messages"
+       [ngClass]="{'message-box-left': message.type ==='received',
+       'message-box-right': message.type ==='sent'}">
+    <p>{{message.content}}</p>
+    <p>{{message.time * 1000 | date:'hh:mm a'}}</p>
+  </div>
+</div>
+
+<div id="messages-form">
+  <input type="text" name="inputMessage" [(ngModel)]="message" (keydown.enter)="sendMessage()" class="element-text">
+  <button type="button" name="sendMessage" (click)="sendMessage()" class="element-button" [disabled]="!message.length">Send</button>
+</div>
+

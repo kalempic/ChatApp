@@ -1,0 +1,143 @@
+[
+  {
+    "name": "Katarina",
+    "status": "Programming",
+    "picture_data":
+    {
+      "src": "../assets/images/Katarina.png",
+      "alt": "Katarina"
+    }
+  ,
+    "messages": [
+      {
+        "time": 1620365858,
+        "content": "Is it something important?",
+        "type": "received"
+      },
+      {
+        "time": 1620365734,
+        "content": "Yes.",
+        "type": "received"
+      },
+      {
+        "time": 1620365674,
+        "content": "Hey, are you here?",
+        "type": "sent"
+      },
+      {
+        "time": 1620365794,
+        "content": "Are you busy?",
+        "type": "sent"
+      },
+      {
+        "time": 1620365854,
+        "content": "A little bit.",
+        "type": "received"
+      },
+      {
+        "time": 1620365974,
+        "content": "No, it can wait.:)",
+        "type": "sent"
+      }
+    ]
+  },
+  {
+    "name": "Sanja",
+    "status": "I love justice!",
+    "picture_data" :
+    {
+      "src": "../assets/images/Sanja.jpg",
+      "alt": "Sanja"
+    }
+  ,
+    "messages": [
+      {
+        "time": 1620365674,
+        "content": "Hello girl!",
+        "type": "received"
+      },
+      {
+        "time": 1620365690,
+        "content": "Hi, how are you?",
+        "type": "sent"
+      },
+      {
+        "time": 1620365750,
+        "content": "Fine. I need your help.",
+        "type": "received"
+      },
+      {
+        "time": 1620365810,
+        "content": "About?",
+        "type": "sent"
+      },
+      {
+        "time": 1620365870,
+        "content": "Constitutional law.",
+        "type": "received"
+      },
+      {
+        "time": 1620365879,
+        "content": "Fine. I will help you.",
+        "type": "sent"
+      }
+    ]
+  },
+  {
+    "name": "Cveta",
+    "status": "Learn to unlearn!",
+    "picture_data" :
+    {
+      "src": "../assets/images/cveta.png",
+      "alt": "Cveta"
+    }
+  ,
+    "messages": [
+      {
+        "time": 1620394800,
+        "content": "How are you today?",
+        "type": "received"
+      },
+      {
+        "time": 1620394860,
+        "content": "Fine, you?",
+        "type": "sent"
+      },
+      {
+        "time": 1620394890,
+        "content": "A little under the weather. Shall we go for coffee?",
+        "type": "received"
+      },
+      {
+        "time": 1620395010,
+        "content": "Ofc, Kafeterija would be fine :)",
+        "type": "sent"
+      },
+      {
+        "time": 1620395100,
+        "content": "Okay, tell me the location.",
+        "type": "received"
+      },
+      {
+        "time": 1620395130,
+        "content": "Adress is Kralja Petra",
+        "type": "sent"
+      },
+      {
+        "time": 1620395190,
+        "content": "Ok, see you there! :)",
+        "type": "received"
+      },
+      {
+        "time": 1620395195,
+        "content": "Bring the umbrella.",
+        "type": "received"
+      },
+      {
+        "time": 1620395435,
+        "content": "I will, see you.",
+        "type": "sent"
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+.background-image {
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../../../assets/images/backgroundpic.png"), repeat, 150px;
+  background-size: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+p {
+  background: #3131c0;
+  color: #fff3e7;
+  padding: 8px 25px 8px 25px;
+  border-radius: 10px 10px 10px 10px;
+}

@@ -1,0 +1,8 @@
+<div [routerLink]="['/chat','conversation',conversation.id]" [routerLinkActive]="['is-active']" class="conversation-item">
+  <img [src]="conversation.picture_data.src.slice(3)" [alt]="conversation.picture_data.alt">
+  <div class="conversation-item-right">
+    <p>{{ conversation.name}}</p>
+    <p class="user-status">{{ conversation.status }}</p>
+  </div>
+</div>
+

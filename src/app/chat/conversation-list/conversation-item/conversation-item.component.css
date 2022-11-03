@@ -1,0 +1,35 @@
+.conversation-item {
+  display: flex;
+  align-items: center;
+  border: solid #A9A9A9;
+  border-width: 0px 0px thin 0px;
+  max-height: 150px;
+  align-content: flex-start;
+}
+
+.conversation-item:hover {
+  background-color: #ebebeb;
+  cursor: pointer;
+}
+
+.user-status {
+  font-style: italic;
+  padding-top: 5px;
+  color: #A9A9A9;
+}
+
+.conversation-item-right p {
+  margin: 0;
+}
+
+img {
+  border-radius: 50%;
+  padding: 10px;
+  height: 40px;
+}
+
+.is-active {
+  border-bottom: solid #080874;
+  background-color: #ebebeb;
+}
+

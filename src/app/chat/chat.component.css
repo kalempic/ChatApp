@@ -1,0 +1,20 @@
+.menu-area {
+  width: 200px;
+  box-shadow: 0 4px 10px -6px #3f3e3e;
+  overflow: auto;
+  /*background-color: rgba(255, 255, 255, 0.8);*/
+  height: 100%;
+}
+
+.messages-area {
+  width: 600px;
+  /*position: relative;*/
+}
+
+#chat-container {
+  display: flex;
+  justify-content: flex-start;
+  box-shadow: 0px 0px 10px 6px #8c8a8a;
+  height: 400px;
+}
+
